@@ -14,10 +14,10 @@
 <li><a href="#about">About</a></li>
 <li><a href="#photos">Some Memories</a></li>
 <li><a href="#playlist">His Favorite Music</a></li>
-<li><a href="#like">Like</a></li>
+<li><a href="#like">Like This Memorial</a></li>
 <li><a href="#qrcoder">QR code</a></li>
 <li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+<li><a href="#contact">Share Your Memories</a></li>
 </div>
 
 
@@ -120,7 +120,6 @@
 
 
 <section id="qrcoder" class="section">
-  <h2>QR Code</h2>
   <div class="qrcode">
     <img src="photos/QR1.png" alt="QR Code">
   </div>
@@ -135,7 +134,7 @@
   <h2>Q&A</h2>
   <div class="answers">
     <h3> Q1 </h3>
-    <h3 dir="rtl"> שלושה הבדלים עיקריים בין Web2, Web1 ו-Web3</h3>
+    <h4 dir="rtl"> שלושה הבדלים עיקריים בין Web2, Web1 ו-Web3</h4>
 
     <table class="comparison-table">
       <thead>
@@ -155,7 +154,7 @@
       </tr>
       <tr>
         <td dir="rtl" style="text-align: right;">המשתמשים הם בעלי התוכן והנתונים שלהם, והם יכולים לשלוט בהם. הנתונים נשמרים בצורה מבוזרת (למשל על בלוקצ’יין), מה שמאפשר למשתמשים לשלוט על הזהות והנכסים הדיגיטליים שלהם.</td>
-        <td dir="rtl" style="text-align: right;">חברות ענק (כמו גוגל ןפייסבוק) שולטות במידע שהמשתמשים יוצרים. המשתמשים "מוסרים" את המידע בתמורה לשירות. המשתמשים יכלו ליצור תוכן, אך עדיין לא היו בעלי המידע שלהם.</td>
+        <td dir="rtl" style="text-align: right;">חברות ענק (כמו גוגל ופייסבוק) שולטות במידע שהמשתמשים יוצרים. המשתמשים "מוסרים" את המידע בתמורה לשירות. המשתמשים יכלו ליצור תוכן, אך עדיין לא היו בעלי המידע שלהם.</td>
         <td dir="rtl" style="text-align: right;">חברות גדולות שלטו במידע ובתוכן. המשתמשים לא היו בעלי תוכן או נתונים, אלא רק צרכנים שלהם.</td>
         <td dir="rtl" style="text-align: right;">בעלות על תוכן ונתונים</td>
       </tr>
@@ -168,7 +167,7 @@
     </table>
 
     <h3> Q2 </h3>
-    <h3 dir="rtl"> המחשת ההבדלים בעזרת תרחיש שימוש- חיפוש השאליתה "תופעות לוואי של תרופות" </h3>
+    <h4 dir="rtl"> המחשת ההבדלים בעזרת תרחיש שימוש- חיפוש השאליתה "תופעות לוואי של תרופות" </h4>
 
     <table class="comparison-table">
       <thead>
@@ -197,7 +196,8 @@
         <td dir="rtl" style="text-align: right;">גוגל, פייסבוק ואתרים מסחריים "דוחפים" תוכן שמקדם מוצרים – למשל פרסומות לתוספים, תרופות, או קליניקות פרטיות. הנתונים של המשתמשים נאספים, נמכרים, ומשפיעים על התוכן שהם רואים.</td>
         <td dir="rtl" style="text-align: right;">אתרים לא ניסו "למכור" כלום, הם רק הציגו מידע בסיסי, לרוב ללא מטרות רווח. לא היו פרסומות או קידומים מסחריים. </td>
         <td dir="rtl" style="text-align: right;">מודל כלכלי והכנסות</td>
-      </tr>    
+      </tr>  
+    </table>    
   </div>
 </section>
 
@@ -210,11 +210,12 @@
   <p dir="rtl" style="text-align: center;">נשמח לשמוע מכם!</p>
 
   <form action="mailto:orlevar@post.bgu.ac.il" method="POST" enctype="text/plain">
-    <input type="text" name="name" placeholder="השם שלך" required>
-    <input type="email" name="email" placeholder="האימייל שלך" required>
-    <textarea name="message" rows="6" placeholder="כתוב כאן את הזיכרון או ההודעה שלך..." required></textarea>
+    <input type="text" name="name" placeholder="שם" required>
+    <input type="email" name="email" placeholder="אימייל" required>
+    <textarea name="message" rows="6"  placeholder="כתוב כאן את הזיכרון או ההודעה שלך..." required></textarea>
 
-    <label for="emoji">בחר אימוג'י שייצג את הרגש שלך:</label>
+    <br><br>
+    <label for="emoji" class="rtl-label">בחר אימוג'י שייצג את הרגש שלך:</label>
     <div class="emoji-list">
       <label class="emoji">
         <input type="radio" name="emoji" value="😊" required> 😊
