@@ -24,7 +24,7 @@ The site is designed with a warm and responsive layout to honor his memory throu
 
 - **Footer**: Closing the site with a message of love and my email so visitors can contact me.
 
-#### Technologies Used
+### Technologies Used
 - HTML5 & CSS3
 
 - JavaScript (basic interactivity)
