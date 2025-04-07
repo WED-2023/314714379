@@ -1,6 +1,8 @@
 # A Memorial Website for My Grandfather
 Name: Or Lev Ari
+
 ID: 314714379
+
 Website Link: https://wed-2023.github.io/314714379/
 
 ## Project Overview
