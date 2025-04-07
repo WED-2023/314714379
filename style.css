@@ -65,7 +65,7 @@
 	top: 50%; 
     bottom: 50%;
     display: block;
-    margin-top: 100px;  
+    margin-top: 150px;  
     width: 100px;
     height: 70px;
     background-image: url('photos/okra.png');
@@ -161,6 +161,18 @@ h4 {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
+
+
+
+#playlist {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f7f7e9;  
+}
+
+.musicvideos iframe:hover {
+    transform: scale(1.07); /* Slight zoom effect on hover */
+}
 
 
 
@@ -333,7 +345,7 @@ button[type="submit"]:active {
 }
 
 form input:focus, form textarea:focus {
-    border-color: #5c8e47; 
+    border-color: #517d3ef0; 
     outline: none;
 }
 
