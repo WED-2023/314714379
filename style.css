@@ -55,12 +55,15 @@
     padding: 40px 20px;
     text-align: center;
     position: relative;
-    background-color: #f7f7e9;  
+    background-color: #f7f7e9;
+	margin-bottom: 60px;  
 }
 
 .section::after {
     content: "";
     position: relative;
+	top: 50%; 
+    bottom: 50%;
     display: block;
     margin-top: 100px;  
     width: 100px;
@@ -89,15 +92,15 @@ h2 {
     font-weight: 400;
     font-style: normal;
 	font-size: 70px;
-    color: #4e773c;
+    color: #517d3ef0;
 }
 
 h3 {
     font-family: "Rubik", sans-serif;
     font-weight: 400;
     font-style: normal;
-	font-size: 50px;
-    color: #39572d;
+	font-size: 40px;
+    color: #517d3ef0;
 	padding-top: 20px;
 	margin-bottom: 8px;
 }
@@ -107,7 +110,7 @@ h4 {
     font-weight: 400;
     font-style: normal;
 	font-size: 25px;
-    color: #39572d;
+    color: #517d3ef0;
 	padding-top: 0px;
 	margin-top: 4px;
 }
@@ -239,6 +242,14 @@ button:active {
 
 
 
+.special-heading{
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 75px;
+    color: #517d3ef0;
+}
+
 .comparison-table {
 	width: 100%;
 	border-collapse: collapse;
@@ -339,10 +350,28 @@ form input:focus, form textarea:focus {
 	margin-bottom: 10px;
   }
 
-.contact-description {
-	text-align: center;
+.contact-form p {
 	font-size: 20px;
 	font-family: "Rubik", sans-serif;
-	color: #333;
-	margin-bottom: 10px;
+	text-align: center;
+	direction: rtl;
+	margin-top: 0;
+  	margin-bottom: 5px;
   }
+
+
+.footer {
+	position: flex;
+	bottom: 0;
+	width: 100%;
+  }
+
+.footer p {
+	text-align: center;
+	padding: 5px;
+	background-color: #5c8e47f0; 
+	color: #fff;
+	font-family: "Rubik", sans-serif;
+	font-size: 18px;
+	margin: 0;
+}
